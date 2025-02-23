@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  justify-content: space-around;  
+  align-items: center;
+}
+
+.start {
+  display: flex;
+  align-items: center;
+  
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar {
+  margin-left: -250px;  
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 20px;
+  border: none;
+  
+}
+
+#products {
+  border: none;
+}
+#resources {
+  border: none;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+}
+
+.login {
+  background-color: color(black);
+  background-color: white;
+  width: 75px;
+  height: 35px;
+  border-style: none;
+  margin-right: 5px;
+}
+
+.signup {
+  color: white;
+  background-color: #7F56D9;
+  width: 75px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+}
